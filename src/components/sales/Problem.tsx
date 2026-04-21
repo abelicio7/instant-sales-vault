@@ -21,16 +21,16 @@ export const Problem = () => (
         description="Se você se identifica com algum desses pontos, este pacote foi feito para você."
       />
 
-      <div className="mt-14 grid md:grid-cols-2 gap-5 max-w-4xl mx-auto">
+      <div className="mt-10 md:mt-14 grid md:grid-cols-2 gap-4 md:gap-5 max-w-4xl mx-auto">
         {pains.map((pain) => (
           <div
             key={pain}
-            className="group flex items-start gap-4 p-6 rounded-2xl bg-gradient-card border border-border hover:border-destructive/50 transition-smooth shadow-card-elevated"
+            className="group flex items-start gap-4 p-5 md:p-6 rounded-2xl bg-gradient-card border border-border hover:border-destructive/50 transition-smooth shadow-card-elevated"
           >
-            <div className="h-11 w-11 rounded-xl bg-destructive/15 flex items-center justify-center shrink-0 group-hover:scale-110 transition-smooth">
+            <div className="h-10 w-10 md:h-11 md:w-11 rounded-xl bg-destructive/15 flex items-center justify-center shrink-0 group-hover:scale-110 transition-smooth">
               <XCircle className="text-destructive" />
             </div>
-            <p className="text-base md:text-lg font-medium pt-1.5">{pain}</p>
+            <p className="text-sm sm:text-base md:text-lg font-medium pt-1.5">{pain}</p>
           </div>
         ))}
       </div>

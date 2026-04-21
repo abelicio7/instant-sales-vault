@@ -12,17 +12,17 @@ export const Transformation = () => (
         title={<>De <span className="text-destructive">perdido</span> para <span className="text-gradient">vendendo online</span></>}
       />
 
-      <div className="mt-14 grid md:grid-cols-[1fr_auto_1fr] gap-6 items-center max-w-5xl mx-auto">
-        <div className="p-8 rounded-3xl border border-destructive/30 bg-destructive/5 shadow-card-elevated">
+      <div className="mt-12 md:mt-14 grid md:grid-cols-[1fr_auto_1fr] gap-5 md:gap-6 items-center max-w-5xl mx-auto">
+        <div className="p-6 md:p-8 rounded-3xl border border-destructive/30 bg-destructive/5 shadow-card-elevated">
           <div className="flex items-center gap-3 mb-5">
             <div className="h-12 w-12 rounded-xl bg-destructive/20 flex items-center justify-center">
               <Frown className="text-destructive" />
             </div>
-            <h3 className="text-xl font-black uppercase text-destructive">Antes</h3>
+            <h3 className="text-lg sm:text-xl font-black uppercase text-destructive">Antes</h3>
           </div>
           <ul className="space-y-3">
             {before.map((b) => (
-              <li key={b} className="flex items-center gap-3 text-muted-foreground line-through">
+              <li key={b} className="flex items-center gap-3 text-sm sm:text-base text-muted-foreground line-through">
                 <span className="h-1.5 w-1.5 rounded-full bg-destructive" /> {b}
               </li>
             ))}
@@ -38,16 +38,16 @@ export const Transformation = () => (
           </div>
         </div>
 
-        <div className="p-8 rounded-3xl border border-brand-green/40 bg-brand-green/5 shadow-glow-green">
+        <div className="p-6 md:p-8 rounded-3xl border border-brand-green/40 bg-brand-green/5 shadow-glow-green">
           <div className="flex items-center gap-3 mb-5">
             <div className="h-12 w-12 rounded-xl bg-brand-green/20 flex items-center justify-center">
               <Trophy className="text-brand-green" />
             </div>
-            <h3 className="text-xl font-black uppercase text-brand-green">Depois</h3>
+            <h3 className="text-lg sm:text-xl font-black uppercase text-brand-green">Depois</h3>
           </div>
           <ul className="space-y-3">
             {after.map((a) => (
-              <li key={a} className="flex items-center gap-3 font-medium">
+              <li key={a} className="flex items-center gap-3 text-sm sm:text-base font-medium">
                 <span className="h-1.5 w-1.5 rounded-full bg-brand-green" /> {a}
               </li>
             ))}

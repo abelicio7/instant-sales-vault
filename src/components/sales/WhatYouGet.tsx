@@ -50,14 +50,14 @@ export const WhatYouGet = () => (
         description="Cada bloco foi pensado para você ter tudo na mão e começar hoje mesmo."
       />
 
-      <div className="mt-14 grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+      <div className="mt-14 grid md:grid-cols-2 gap-8 md:gap-6 max-w-5xl mx-auto">
         {blocks.map(({ icon: Icon, label, items, accent }) => (
           <div
             key={label}
-            className="group relative p-8 rounded-3xl bg-gradient-card border border-border shadow-card-elevated hover:border-brand-green/50 transition-smooth"
+            className="group relative p-6 md:p-8 rounded-3xl bg-gradient-card border border-border shadow-card-elevated hover:border-brand-green/50 transition-smooth"
           >
             <div
-              className={`absolute top-0 left-8 -translate-y-1/2 h-12 w-12 rounded-2xl flex items-center justify-center ${
+              className={`absolute top-0 left-6 md:left-8 -translate-y-1/2 h-12 w-12 rounded-2xl flex items-center justify-center ${
                 accent === "green"
                   ? "bg-gradient-cta shadow-glow-green"
                   : "bg-gradient-yellow shadow-glow-yellow"
@@ -65,14 +65,14 @@ export const WhatYouGet = () => (
             >
               <Icon className="text-brand-black" />
             </div>
-            <h3 className="text-xl md:text-2xl font-black mt-4 mb-5">{label}</h3>
+            <h3 className="text-lg sm:text-xl md:text-2xl font-black mt-4 mb-5">{label}</h3>
             <ul className="space-y-3">
               {items.map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <span className="mt-1 h-5 w-5 rounded-full bg-brand-green/15 flex items-center justify-center shrink-0">
                     <Check className="h-3 w-3 text-brand-green" />
                   </span>
-                  <span className="text-foreground/90">{item}</span>
+                  <span className="text-sm sm:text-base text-foreground/90">{item}</span>
                 </li>
               ))}
             </ul>
