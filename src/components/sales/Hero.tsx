@@ -4,39 +4,39 @@ import heroImg from "@/assets/hero-marketing.jpg";
 
 export const Hero = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-hero pt-28 pb-20 md:pt-36 md:pb-28">
+    <section className="relative overflow-hidden bg-gradient-hero pt-20 pb-16 md:pt-36 md:pb-28">
       <div className="absolute inset-0 grid-bg pointer-events-none" />
       <div className="container relative">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-up">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-brand-green/30 bg-brand-green/10 mb-6">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full border border-brand-green/30 bg-brand-green/10 mb-5 sm:mb-6 max-w-full">
               <span className="relative flex h-2 w-2">
                 <span className="absolute inline-flex h-full w-full rounded-full bg-brand-green opacity-75 animate-ping" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-green" />
               </span>
-              <span className="text-xs font-bold uppercase tracking-wider text-brand-green">
+              <span className="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-brand-green">
                 Acesso Vitalício • Liberação Imediata
               </span>
             </div>
 
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-black leading-[1.02] tracking-tight">
+            <h1 className="text-[2rem] sm:text-5xl md:text-6xl lg:text-7xl font-black leading-[1.05] tracking-tight">
               O Pacote Mais{" "}
               <span className="text-gradient">Completo</span>{" "}
               de Marketing Digital que Você Vai Encontrar
             </h1>
 
-            <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-xl">
+            <p className="mt-5 text-base sm:text-lg md:text-xl text-muted-foreground max-w-xl">
               Aprenda, execute e comece a vender <strong className="text-brand-white">ainda hoje</strong> com cursos, ferramentas e materiais prontos.
             </p>
 
-            <div className="mt-6 flex items-center gap-3">
+            <div className="mt-6 flex flex-wrap items-center gap-2 sm:gap-3">
               <span className="text-3xl md:text-4xl font-black text-brand-yellow">197 Mt</span>
               <span className="text-sm text-muted-foreground line-through">990 Mt</span>
-              <span className="text-xs font-bold text-brand-green bg-brand-green/10 px-2 py-1 rounded-full">80% OFF</span>
+              <span className="text-[10px] sm:text-xs font-bold text-brand-green bg-brand-green/10 px-2 py-1 rounded-full">80% OFF</span>
             </div>
 
             <div className="mt-6 flex flex-col sm:flex-row gap-4">
-              <Button variant="cta" size="hero" asChild className="animate-pulse-glow">
+              <Button variant="cta" size="hero" asChild className="animate-pulse-glow w-full sm:w-auto">
                 <a href="https://my.debito.co.mz/pay/b29587ee-8f58-40e6-a36c-f01477cd8c9d" target="_blank" rel="noopener noreferrer">
                   Quero Acesso Imediato <ArrowRight />
                 </a>

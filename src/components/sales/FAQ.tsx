@@ -23,18 +23,18 @@ export const FAQ = () => (
         title="Perguntas Frequentes"
         description="Tirando as últimas dúvidas antes de você começar."
       />
-      <div className="mt-12 max-w-3xl mx-auto">
+      <div className="mt-10 md:mt-12 max-w-3xl mx-auto">
         <Accordion type="single" collapsible className="space-y-3">
           {faqs.map((f, i) => (
             <AccordionItem
               key={i}
               value={`item-${i}`}
-              className="border border-border rounded-2xl bg-gradient-card px-6 shadow-card-elevated"
+              className="border border-border rounded-2xl bg-gradient-card px-4 sm:px-6 shadow-card-elevated"
             >
-              <AccordionTrigger className="text-left font-bold text-base md:text-lg hover:no-underline py-5">
+              <AccordionTrigger className="text-left font-bold text-sm sm:text-base md:text-lg hover:no-underline py-4 sm:py-5">
                 {f.q}
               </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground text-base pb-5">
+              <AccordionContent className="text-muted-foreground text-sm sm:text-base pb-5">
                 {f.a}
               </AccordionContent>
             </AccordionItem>
