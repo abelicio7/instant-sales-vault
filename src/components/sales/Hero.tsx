@@ -29,9 +29,15 @@ export const Hero = () => {
               Aprenda, execute e comece a vender <strong className="text-brand-white">ainda hoje</strong> com cursos, ferramentas e materiais prontos.
             </p>
 
-            <div className="mt-8 flex flex-col sm:flex-row gap-4">
+            <div className="mt-6 flex items-center gap-3">
+              <span className="text-3xl md:text-4xl font-black text-brand-yellow">197 Mt</span>
+              <span className="text-sm text-muted-foreground line-through">990 Mt</span>
+              <span className="text-xs font-bold text-brand-green bg-brand-green/10 px-2 py-1 rounded-full">80% OFF</span>
+            </div>
+
+            <div className="mt-6 flex flex-col sm:flex-row gap-4">
               <Button variant="cta" size="hero" asChild className="animate-pulse-glow">
-                <a href="#cta">
+                <a href="https://my.debito.co.mz/pay/b29587ee-8f58-40e6-a36c-f01477cd8c9d" target="_blank" rel="noopener noreferrer">
                   Quero Acesso Imediato <ArrowRight />
                 </a>
               </Button>
