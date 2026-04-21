@@ -13,7 +13,7 @@ import { StickyBar } from "@/components/sales/StickyBar";
 
 const Index = () => {
   return (
-    <main className="min-h-screen bg-background text-foreground antialiased pb-20 md:pb-0">
+    <main className="min-h-screen bg-background text-foreground antialiased pb-24 md:pb-0 overflow-x-hidden">
       <Hero />
       <Problem />
       <Solution />
