@@ -1,16 +1,33 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Hero } from "@/components/sales/Hero";
+import { Problem } from "@/components/sales/Problem";
+import { Solution } from "@/components/sales/Solution";
+import { WhatYouGet } from "@/components/sales/WhatYouGet";
+import { Benefits } from "@/components/sales/Benefits";
+import { Transformation } from "@/components/sales/Transformation";
+import { Scarcity } from "@/components/sales/Scarcity";
+import { CTA } from "@/components/sales/CTA";
+import { Guarantee } from "@/components/sales/Guarantee";
+import { FAQ } from "@/components/sales/FAQ";
+import { Footer } from "@/components/sales/Footer";
+import { StickyBar } from "@/components/sales/StickyBar";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
+    <main className="min-h-screen bg-background text-foreground antialiased pb-20 md:pb-0">
+      <Hero />
+      <Problem />
+      <Solution />
+      <WhatYouGet />
+      <Benefits />
+      <Transformation />
+      <Scarcity />
+      <CTA />
+      <Guarantee />
+      <FAQ />
+      <Footer />
+      <StickyBar />
+    </main>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
