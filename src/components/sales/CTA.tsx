@@ -18,13 +18,20 @@ export const CTA = () => (
           Acesso vitalício a todos os cursos, kits, PLR e materiais. Comece a vender ainda hoje.
         </p>
 
-        <div className="mt-10 flex flex-col items-center gap-4">
+        <div className="mt-8 flex flex-col items-center">
+          <div className="flex items-center gap-3 mb-6">
+            <span className="text-5xl md:text-6xl font-black text-brand-yellow">197 Mt</span>
+            <div className="flex flex-col items-start">
+              <span className="text-lg text-muted-foreground line-through">990 Mt</span>
+              <span className="text-xs font-bold text-brand-green bg-brand-green/10 px-2 py-1 rounded-full">80% OFF</span>
+            </div>
+          </div>
           <Button variant="ctaYellow" size="hero" asChild className="w-full sm:w-auto">
-            <a href="#">
+            <a href="https://my.debito.co.mz/pay/b29587ee-8f58-40e6-a36c-f01477cd8c9d" target="_blank" rel="noopener noreferrer">
               Quero Acesso ao Pacote Completo <ArrowRight />
             </a>
           </Button>
-          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-muted-foreground">
+          <div className="mt-4 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-muted-foreground">
             <span className="flex items-center gap-1.5"><Lock className="h-4 w-4 text-brand-green" /> Pagamento 100% seguro</span>
             <span className="flex items-center gap-1.5"><Zap className="h-4 w-4 text-brand-green" /> Acesso imediato</span>
             <span className="flex items-center gap-1.5"><ShieldCheck className="h-4 w-4 text-brand-green" /> 7 dias de garantia</span>
