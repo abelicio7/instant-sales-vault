@@ -27,7 +27,7 @@ export const CTA = () => (
             </div>
           </div>
           <Button variant="ctaYellow" size="hero" asChild className="w-full sm:w-auto">
-            <a href="https://my.debito.co.mz/pay/b29587ee-8f58-40e6-a36c-f01477cd8c9d" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.ensinapay.com/checkout/b3ab3c55-0c53-4410-bf48-48bb9dcb4943" target="_blank" rel="noopener noreferrer">
               <span>Quero Acesso ao Pacote Completo</span> <ArrowRight />
             </a>
           </Button>
