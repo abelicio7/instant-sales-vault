@@ -37,7 +37,7 @@ export const Hero = () => {
 
             <div className="mt-6 flex flex-col sm:flex-row gap-4">
               <Button variant="cta" size="hero" asChild className="animate-pulse-glow w-full sm:w-auto">
-                <a href="https://my.debito.co.mz/pay/b29587ee-8f58-40e6-a36c-f01477cd8c9d" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.ensinapay.com/checkout/b3ab3c55-0c53-4410-bf48-48bb9dcb4943" target="_blank" rel="noopener noreferrer">
                   Quero Acesso Imediato <ArrowRight />
                 </a>
               </Button>
