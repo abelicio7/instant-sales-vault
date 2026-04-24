@@ -9,7 +9,7 @@ export const StickyBar = () => (
         <span className="text-lg font-black text-brand-yellow">197 Mt</span>
       </div>
       <Button variant="cta" size="lg" className="flex-1 px-3 text-sm" asChild>
-        <a href="https://my.debito.co.mz/pay/b29587ee-8f58-40e6-a36c-f01477cd8c9d" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.ensinapay.com/checkout/b3ab3c55-0c53-4410-bf48-48bb9dcb4943">
           Comprar Agora <ArrowRight />
         </a>
       </Button>
