@@ -20,9 +20,9 @@ export const CTA = () => (
 
         <div className="mt-8 flex flex-col items-center">
           <div className="flex items-center gap-3 mb-6">
-            <span className="text-4xl sm:text-5xl md:text-6xl font-black text-brand-yellow">15 reais</span>
+            <span className="text-4xl sm:text-5xl md:text-6xl font-black text-brand-yellow">15 Reais</span>
             <div className="flex flex-col items-start">
-              <span className="text-lg text-muted-foreground line-through">97 reais</span>
+              <span className="text-lg text-muted-foreground line-through">97 Reais</span>
               <span className="text-[10px] sm:text-xs font-bold text-brand-green bg-brand-green/10 px-2 py-1 rounded-full">85% OFF</span>
             </div>
           </div>

@@ -30,8 +30,8 @@ export const Hero = () => {
             </p>
 
             <div className="mt-6 flex flex-wrap items-center gap-2 sm:gap-3">
-              <span className="text-3xl md:text-4xl font-black text-brand-yellow">15 reais</span>
-              <span className="text-sm text-muted-foreground line-through">97 reais</span>
+              <span className="text-3xl md:text-4xl font-black text-brand-yellow">15 Reais</span>
+              <span className="text-sm text-muted-foreground line-through">97 Reais</span>
               <span className="text-[10px] sm:text-xs font-bold text-brand-green bg-brand-green/10 px-2 py-1 rounded-full">85% OFF</span>
             </div>
 
