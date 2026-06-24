@@ -31,8 +31,8 @@ export const Hero = () => {
 
             <div className="mt-6 flex flex-wrap items-center gap-2 sm:gap-3">
               <span className="text-3xl md:text-4xl font-black text-brand-yellow">15 reais</span>
-              <span className="text-sm text-muted-foreground line-through">497 reais</span>
-              <span className="text-[10px] sm:text-xs font-bold text-brand-green bg-brand-green/10 px-2 py-1 rounded-full">97% OFF</span>
+              <span className="text-sm text-muted-foreground line-through">97 reais</span>
+              <span className="text-[10px] sm:text-xs font-bold text-brand-green bg-brand-green/10 px-2 py-1 rounded-full">85% OFF</span>
             </div>
 
             <div className="mt-6 flex flex-col sm:flex-row gap-4">
