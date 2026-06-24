@@ -30,14 +30,14 @@ export const Hero = () => {
             </p>
 
             <div className="mt-6 flex flex-wrap items-center gap-2 sm:gap-3">
-              <span className="text-3xl md:text-4xl font-black text-brand-yellow">197 Mt</span>
-              <span className="text-sm text-muted-foreground line-through">990 Mt</span>
-              <span className="text-[10px] sm:text-xs font-bold text-brand-green bg-brand-green/10 px-2 py-1 rounded-full">80% OFF</span>
+              <span className="text-3xl md:text-4xl font-black text-brand-yellow">15 reais</span>
+              <span className="text-sm text-muted-foreground line-through">497 reais</span>
+              <span className="text-[10px] sm:text-xs font-bold text-brand-green bg-brand-green/10 px-2 py-1 rounded-full">97% OFF</span>
             </div>
 
             <div className="mt-6 flex flex-col sm:flex-row gap-4">
               <Button variant="cta" size="hero" asChild className="animate-pulse-glow w-full sm:w-auto">
-                <a href="https://www.ensinapay.com/checkout/b3ab3c55-0c53-4410-bf48-48bb9dcb4943" target="_blank" rel="noopener noreferrer">
+                <a href="https://pay.kiwify.com.br/1rYQtsN" target="_blank" rel="noopener noreferrer">
                   Quero Acesso Imediato <ArrowRight />
                 </a>
               </Button>

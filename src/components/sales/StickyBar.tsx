@@ -6,10 +6,10 @@ export const StickyBar = () => (
     <div className="flex items-center justify-between gap-3">
       <div className="flex flex-col leading-tight shrink-0">
         <span className="text-[10px] text-muted-foreground">Apenas</span>
-        <span className="text-lg font-black text-brand-yellow">197 Mt</span>
+        <span className="text-lg font-black text-brand-yellow">15 reais</span>
       </div>
       <Button variant="cta" size="lg" className="flex-1 px-3 text-sm" asChild>
-        <a href="https://www.ensinapay.com/checkout/b3ab3c55-0c53-4410-bf48-48bb9dcb4943">
+        <a href="https://pay.kiwify.com.br/1rYQtsN">
           Comprar Agora <ArrowRight />
         </a>
       </Button>
