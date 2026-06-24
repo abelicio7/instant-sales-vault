@@ -20,14 +20,14 @@ export const CTA = () => (
 
         <div className="mt-8 flex flex-col items-center">
           <div className="flex items-center gap-3 mb-6">
-            <span className="text-4xl sm:text-5xl md:text-6xl font-black text-brand-yellow">197 Mt</span>
+            <span className="text-4xl sm:text-5xl md:text-6xl font-black text-brand-yellow">15 reais</span>
             <div className="flex flex-col items-start">
-              <span className="text-lg text-muted-foreground line-through">990 Mt</span>
-              <span className="text-[10px] sm:text-xs font-bold text-brand-green bg-brand-green/10 px-2 py-1 rounded-full">80% OFF</span>
+              <span className="text-lg text-muted-foreground line-through">497 reais</span>
+              <span className="text-[10px] sm:text-xs font-bold text-brand-green bg-brand-green/10 px-2 py-1 rounded-full">97% OFF</span>
             </div>
           </div>
           <Button variant="ctaYellow" size="hero" asChild className="w-full sm:w-auto">
-            <a href="https://www.ensinapay.com/checkout/b3ab3c55-0c53-4410-bf48-48bb9dcb4943" target="_blank" rel="noopener noreferrer">
+            <a href="https://pay.kiwify.com.br/1rYQtsN" target="_blank" rel="noopener noreferrer">
               <span>Quero Acesso ao Pacote Completo</span> <ArrowRight />
             </a>
           </Button>
